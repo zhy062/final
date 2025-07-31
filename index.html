@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhirun Yang's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+      color: #333;
+    }
+    .jumbotron {
+      background: linear-gradient(120deg, #e0f7fa, #f1f8e9);
+      padding: 4rem 2rem;
+    }
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border: none;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Zhirun Yang</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="jumbotron text-center">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">Showcasing my work in design and development</p>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mt-5">
+    <h2 class="mb-4">My Projects</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">Designed with HTML, CSS, and Bootstrap. Deployed on GitHub Pages.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Study Buddy App</h5>
+            <p class="card-text">Figma prototype focused on student productivity and usability testing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="container mt-5 text-center">
+    <h2 class="mb-3">My Resume</h2>
+    <p>Click below to view or download my full resume (PDF).</p>
+    <a href="resume.pdf" class="btn btn-primary btn-lg" target="_blank">View My Resume</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 mb-3">
+    <p>&copy; 2025 Zhirun Yang</p>
+  </footer>
+
+</body>
+</html>
+
